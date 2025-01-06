@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CanAvoidCurfew",
+            "request": "launch",
+            "mainClass": "trick.CanAvoidCurfew",
+            "projectName": "TrickOrTreat_7eb95f01",
+            "args": "input1.in h1 h8 100 shortestpaths1.out"
+        },
+        {
+            "type": "java",
+            "name": "FindHouseWithMostCandy",
+            "request": "launch",
+            "mainClass": "trick.FindHouseWithMostCandy",
+            "projectName": "TrickOrTreat_7eb95f01",
+            "args": "input1.in h1 Skittles findcandy1.out"
+        },
+        {
+            "type": "java",
+            "name": "FindTreatsRoute",
+            "request": "launch",
+            "mainClass": "trick.FindTreatsRoute",
+            "projectName": "TrickOrTreat_7eb95f01",
+            "args": "input1.in h1 findtreats1.out"
+        },
+        {
+            "type": "java",
+            "name": "NeighborhoodMap",
+            "request": "launch",
+            "mainClass": "trick.NeighborhoodMap",
+            "projectName": "TrickOrTreat_7eb95f01",
+            "args": "input1.in input1.out"
+        },
+        {
+            "type": "java",
+            "name": "PathToMostCandy",
+            "request": "launch",
+            "mainClass": "trick.PathToMostCandy",
+            "projectName": "TrickOrTreat_7eb95f01",
+            "args": "input1.in h1 KitKat mostcandy1.out"
+        },
+        {
+            "type": "java",
+            "name": "ShortestPath",
+            "request": "launch",
+            "mainClass": "trick.ShortestPath",
+            "projectName": "TrickOrTreat_7eb95f01",
+            "args": "input1.in h1 shortestpaths1.out"
+        },
+        {
+            "type": "java",
+            "name": "StdIn",
+            "request": "launch",
+            "mainClass": "trick.StdIn",
+            "projectName": "TrickOrTreat_7eb95f01"
+        },
+        {
+            "type": "java",
+            "name": "StdOut",
+            "request": "launch",
+            "mainClass": "trick.StdOut",
+            "projectName": "TrickOrTreat_7eb95f01"
+        }
+    ]
+}
